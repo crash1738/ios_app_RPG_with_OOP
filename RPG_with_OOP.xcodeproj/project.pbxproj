@@ -12,16 +12,26 @@
 		702BAE991C5DB9B200CF7061 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702BAE971C5DB9B200CF7061 /* Main.storyboard */; };
 		702BAE9B1C5DB9B200CF7061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702BAE9A1C5DB9B200CF7061 /* Assets.xcassets */; };
 		702BAE9E1C5DB9B200CF7061 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702BAE9C1C5DB9B200CF7061 /* LaunchScreen.storyboard */; };
+		702BAEA61C5DBB7200CF7061 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702BAEA51C5DBB7200CF7061 /* Character.swift */; };
+		702BAEA81C5DBCE100CF7061 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702BAEA71C5DBCE100CF7061 /* Player.swift */; };
+		702BAEAA1C5DBE6D00CF7061 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702BAEA91C5DBE6D00CF7061 /* Enemy.swift */; };
+		702BAEAC1C5DC25C00CF7061 /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702BAEAB1C5DC25C00CF7061 /* Kimara.swift */; };
+		702BAEAE1C5DC42100CF7061 /* DevilWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702BAEAD1C5DC42100CF7061 /* DevilWizard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		702BAE901C5DB9B200CF7061 /* 19_RPG_with_OOP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 19_RPG_with_OOP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		702BAE901C5DB9B200CF7061 /* RPG_with_OOP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPG_with_OOP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		702BAE931C5DB9B200CF7061 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		702BAE951C5DB9B200CF7061 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		702BAE981C5DB9B200CF7061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		702BAE9A1C5DB9B200CF7061 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		702BAE9D1C5DB9B200CF7061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		702BAE9F1C5DB9B200CF7061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		702BAEA51C5DBB7200CF7061 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		702BAEA71C5DBCE100CF7061 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		702BAEA91C5DBE6D00CF7061 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		702BAEAB1C5DC25C00CF7061 /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		702BAEAD1C5DC42100CF7061 /* DevilWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevilWizard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +48,7 @@
 		702BAE871C5DB9B200CF7061 = {
 			isa = PBXGroup;
 			children = (
-				702BAE921C5DB9B200CF7061 /* 19_RPG_with_OOP */,
+				702BAE921C5DB9B200CF7061 /* RPG_with_OOP */,
 				702BAE911C5DB9B200CF7061 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +56,12 @@
 		702BAE911C5DB9B200CF7061 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				702BAE901C5DB9B200CF7061 /* 19_RPG_with_OOP.app */,
+				702BAE901C5DB9B200CF7061 /* RPG_with_OOP.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		702BAE921C5DB9B200CF7061 /* 19_RPG_with_OOP */ = {
+		702BAE921C5DB9B200CF7061 /* RPG_with_OOP */ = {
 			isa = PBXGroup;
 			children = (
 				702BAE931C5DB9B200CF7061 /* AppDelegate.swift */,
@@ -60,16 +70,22 @@
 				702BAE9A1C5DB9B200CF7061 /* Assets.xcassets */,
 				702BAE9C1C5DB9B200CF7061 /* LaunchScreen.storyboard */,
 				702BAE9F1C5DB9B200CF7061 /* Info.plist */,
+				702BAEA51C5DBB7200CF7061 /* Character.swift */,
+				702BAEA71C5DBCE100CF7061 /* Player.swift */,
+				702BAEA91C5DBE6D00CF7061 /* Enemy.swift */,
+				702BAEAB1C5DC25C00CF7061 /* Kimara.swift */,
+				702BAEAD1C5DC42100CF7061 /* DevilWizard.swift */,
 			);
+			name = RPG_with_OOP;
 			path = 19_RPG_with_OOP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		702BAE8F1C5DB9B200CF7061 /* 19_RPG_with_OOP */ = {
+		702BAE8F1C5DB9B200CF7061 /* RPG_with_OOP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 702BAEA21C5DB9B200CF7061 /* Build configuration list for PBXNativeTarget "19_RPG_with_OOP" */;
+			buildConfigurationList = 702BAEA21C5DB9B200CF7061 /* Build configuration list for PBXNativeTarget "RPG_with_OOP" */;
 			buildPhases = (
 				702BAE8C1C5DB9B200CF7061 /* Sources */,
 				702BAE8D1C5DB9B200CF7061 /* Frameworks */,
@@ -79,9 +95,9 @@
 			);
 			dependencies = (
 			);
-			name = 19_RPG_with_OOP;
+			name = RPG_with_OOP;
 			productName = 19_RPG_with_OOP;
-			productReference = 702BAE901C5DB9B200CF7061 /* 19_RPG_with_OOP.app */;
+			productReference = 702BAE901C5DB9B200CF7061 /* RPG_with_OOP.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 702BAE8B1C5DB9B200CF7061 /* Build configuration list for PBXProject "19_RPG_with_OOP" */;
+			buildConfigurationList = 702BAE8B1C5DB9B200CF7061 /* Build configuration list for PBXProject "RPG_with_OOP" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				702BAE8F1C5DB9B200CF7061 /* 19_RPG_with_OOP */,
+				702BAE8F1C5DB9B200CF7061 /* RPG_with_OOP */,
 			);
 		};
 /* End PBXProject section */
@@ -136,6 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				702BAEA81C5DBCE100CF7061 /* Player.swift in Sources */,
+				702BAEAA1C5DBE6D00CF7061 /* Enemy.swift in Sources */,
+				702BAEAE1C5DC42100CF7061 /* DevilWizard.swift in Sources */,
+				702BAEAC1C5DC25C00CF7061 /* Kimara.swift in Sources */,
+				702BAEA61C5DBB7200CF7061 /* Character.swift in Sources */,
 				702BAE961C5DB9B200CF7061 /* ViewController.swift in Sources */,
 				702BAE941C5DB9B200CF7061 /* AppDelegate.swift in Sources */,
 			);
@@ -249,9 +270,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 19_RPG_with_OOP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kunhan.-9-RPG-with-OOP";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RPG_with_OOP;
 			};
 			name = Debug;
 		};
@@ -260,16 +282,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 19_RPG_with_OOP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kunhan.-9-RPG-with-OOP";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RPG_with_OOP;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		702BAE8B1C5DB9B200CF7061 /* Build configuration list for PBXProject "19_RPG_with_OOP" */ = {
+		702BAE8B1C5DB9B200CF7061 /* Build configuration list for PBXProject "RPG_with_OOP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				702BAEA01C5DB9B200CF7061 /* Debug */,
@@ -278,13 +301,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		702BAEA21C5DB9B200CF7061 /* Build configuration list for PBXNativeTarget "19_RPG_with_OOP" */ = {
+		702BAEA21C5DB9B200CF7061 /* Build configuration list for PBXNativeTarget "RPG_with_OOP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				702BAEA31C5DB9B200CF7061 /* Debug */,
 				702BAEA41C5DB9B200CF7061 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

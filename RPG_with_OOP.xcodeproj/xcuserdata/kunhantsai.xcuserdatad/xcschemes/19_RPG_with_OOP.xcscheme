@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "702BAE8F1C5DB9B200CF7061"
-               BuildableName = "19_RPG_with_OOP.app"
-               BlueprintName = "19_RPG_with_OOP"
-               ReferencedContainer = "container:19_RPG_with_OOP.xcodeproj">
+               BuildableName = "RPG_with_OOP.app"
+               BlueprintName = "RPG_with_OOP"
+               ReferencedContainer = "container:RPG_with_OOP.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "702BAE8F1C5DB9B200CF7061"
-            BuildableName = "19_RPG_with_OOP.app"
-            BlueprintName = "19_RPG_with_OOP"
-            ReferencedContainer = "container:19_RPG_with_OOP.xcodeproj">
+            BuildableName = "RPG_with_OOP.app"
+            BlueprintName = "RPG_with_OOP"
+            ReferencedContainer = "container:RPG_with_OOP.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "702BAE8F1C5DB9B200CF7061"
-            BuildableName = "19_RPG_with_OOP.app"
-            BlueprintName = "19_RPG_with_OOP"
-            ReferencedContainer = "container:19_RPG_with_OOP.xcodeproj">
+            BuildableName = "RPG_with_OOP.app"
+            BlueprintName = "RPG_with_OOP"
+            ReferencedContainer = "container:RPG_with_OOP.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "702BAE8F1C5DB9B200CF7061"
-            BuildableName = "19_RPG_with_OOP.app"
-            BlueprintName = "19_RPG_with_OOP"
-            ReferencedContainer = "container:19_RPG_with_OOP.xcodeproj">
+            BuildableName = "RPG_with_OOP.app"
+            BlueprintName = "RPG_with_OOP"
+            ReferencedContainer = "container:RPG_with_OOP.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
